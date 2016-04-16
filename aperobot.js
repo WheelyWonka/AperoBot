@@ -1,13 +1,16 @@
 var moment = require('moment-timezone');
 
 module.exports = {
+  getRandomGif : function() {
+
+  },
   aperoBot : function(req, res, next) {
     var userName = req.body.user_name;
     var hours = moment.tz('Europe/Paris').format('HH');
 
     var botPayload = {
       h17and23 : {
-        text : 'Tu as raison ' + userName + ', c\'est l\'heure de l\'apéro !'
+        text : '<!channel> ' + userName + ' a raison! *C\'est l\'heure de l\'apéro !*'
       },
       h23and6 : {
         text : 'Oula ' + userName + ', t\'es cramé, c\'est plus du tout l\'heure de l\'apéro !'
