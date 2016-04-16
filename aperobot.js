@@ -7,10 +7,10 @@ module.exports = {
 
     var botPayload = {
       h17and23 : {
-        text : 'Tu as raison ' + userName + ', il est l\' heure de l\'apéro !'
+        text : 'Tu as raison ' + userName + ', c\'est l\'heure de l\'apéro !'
       },
       h23and6 : {
-        text : 'Oula ' + userName + ', t\'es cramé, c\'est plus l\' heure de l\'apéro !'
+        text : 'Oula ' + userName + ', t\'es cramé, c\'est plus l\'heure de l\'apéro !'
       },
       h6and10 : {
         text : 'Sérieux ' + userName + ', va me chercher un café.'
@@ -19,7 +19,7 @@ module.exports = {
         text : 'Un peu tôt pour l\'apéro... Bosse un peu ' + userName + ', ou fait semblant au moins.'
       },
       h16 : {
-        text : 'Patience ' + userName + ', c\'est bientôt l\' heure de l\'apéro !'
+        text : 'Patience ' + userName + ', c\'est bientôt l\'heure de l\'apéro !'
       }
     };
     
