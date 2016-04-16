@@ -10,7 +10,7 @@ module.exports = {
         text : 'Tu as raison ' + userName + ', c\'est l\'heure de l\'apéro !'
       },
       h23and6 : {
-        text : 'Oula ' + userName + ', t\'es cramé, c\'est plus l\'heure de l\'apéro !'
+        text : 'Oula ' + userName + ', t\'es cramé, c\'est plus du tout l\'heure de l\'apéro !'
       },
       h6and10 : {
         text : 'Sérieux ' + userName + ', va me chercher un café.'
