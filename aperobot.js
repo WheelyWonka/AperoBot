@@ -13,10 +13,10 @@ module.exports = {
         text : 'Oula ' + userName + ', t\'es cramé, c\'est plus l\' heure de l\'apéro !'
       },
       h6and10 : {
-        text : 'Sérieux ' + userName + ', va me chercher un croissant et un café.'
+        text : 'Sérieux ' + userName + ', va me chercher un café.'
       },
       h10and16 : {
-        text : 'Un peu tôt pour l\'apéro coco !'
+        text : 'Un peu tôt pour l\'apéro... Bosse un peu ' + userName + ', ou fait semblant au moins.'
       },
       h16 : {
         text : 'Patience ' + userName + ', c\'est bientôt l\' heure de l\'apéro !'
