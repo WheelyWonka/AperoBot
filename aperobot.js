@@ -7,7 +7,7 @@ module.exports = {
 
     var botPayload = {
       h17and23 : {
-        text : '@channel, ' + userName + ' a raison, il est l\' heure de l\'apéro !'
+        text : 'Tu as raison ' + userName + ', il est l\' heure de l\'apéro !'
       },
       h23and6 : {
         text : 'Oula ' + userName + ', t\'es cramé, c\'est plus l\' heure de l\'apéro !'
