@@ -20,5 +20,7 @@ Inside Integration settings, there is only one required field : **URL(s)**
 - **Customize Name** : aperoBot
 - **Customize Icon** : [download the bot avatar](https://github.com/WheelyWonka/aperoBot/blob/master/picture.jpg)
 
+![demo](https://cloud.githubusercontent.com/assets/11378073/14586371/38b6206e-0496-11e6-8e0a-878167771767.png)
+
 # aperoBot drinking problem
 Sometimes, the aperoBot is too drunk to talk and **needs to sleep**... If you want a super duper aperoBot, feel free to fork the repo to install it somewhere else.
