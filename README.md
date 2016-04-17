@@ -12,7 +12,7 @@ Inside Integration settings, there is only one required field : **URL(s)**
 
 ## Settings examples
 
--** Channel** : Any
+- **Channel** : Any
 - **Trigger Words** : apéro,apero, vin, bière, biere, binch, binouze, binou, houblon, pinte, demi, cocktail, mojito
 - **URL(s)** (required) : https://aperobot.herokuapp.com/fr
 - **Customize Name** : aperoBot
