@@ -1,6 +1,8 @@
 # aperoBot
 Just a dumb bot for Slack that tells you if it's time to have a drink with your colleagues. So... Apéro ?!
 
+![apero](https://media3.giphy.com/media/Posxo8i6NKrC0/200.gif)
+
 # How to install
 You need to create a new Outgoing WebHooks into the Custom Integration section.
 
