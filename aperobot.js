@@ -9,6 +9,9 @@ module.exports = {
     var hours = moment.tz('Europe/Paris').format('HH');
 
     var botPayload = {
+      pastis : {
+        text : 'Pastis par temps bleu, *pastis délicieux !*'
+      },
       h17and23 : {
         text : '<!channel> ' + userName + ' a raison! *C\'est l\'heure de l\'apéro !*'
       },
@@ -24,12 +27,18 @@ module.exports = {
       h16 : {
         text : 'Patience ' + userName + ', c\'est bientôt l\'heure de l\'apéro !'
       }
+      jb : {
+        text : 'Oula, t\'as vu la gueule de @jb ?'
+      }
     };
     
 
     // avoid infinite loop
     if (userName !== 'slackbot') {
-      if (hours >= 17 && hours < 23) {
+      if (req.body.text.indexOf('jb')){
+
+      }
+      else if (hours >= 17 && hours < 23) {
         return res.status(200).json(botPayload.h17and23);
       } else if (hours >= 23 && hours < 6) {
         return res.status(200).json(botPayload.h23and6);
