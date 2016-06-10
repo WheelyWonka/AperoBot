@@ -1,9 +1,6 @@
 var moment = require('moment-timezone');
 
 module.exports = {
-  getRandomGif : function() {
-
-  },
   aperoBot : function(req, res, next) {
     var userName = req.body.user_name;
     var hours = moment.tz('Europe/Paris').format('HH');
