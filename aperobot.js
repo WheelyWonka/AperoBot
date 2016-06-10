@@ -28,7 +28,8 @@ module.exports = {
         text : 'Patience ' + userName + ', c\'est bientôt l\'heure de l\'apéro !'
       }
       jb : {
-        text : 'Oula j\'sais pas trop, t\'as vu la gueule de @jb ?'
+        link_names:1,
+        text : 'Oula j\'sais pas trop, t\'as vu la race de @jb ?'
       }
     };
     
