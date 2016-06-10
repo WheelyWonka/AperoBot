@@ -28,7 +28,7 @@ module.exports = {
         text : 'Patience ' + userName + ', c\'est bientôt l\'heure de l\'apéro !'
       }
       jb : {
-        text : 'Oula, t\'as vu la gueule de @jb ?'
+        text : 'Oula j\'sais pas trop, t\'as vu la gueule de @jb ?'
       }
     };
     
