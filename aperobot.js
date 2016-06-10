@@ -36,7 +36,7 @@ module.exports = {
     // avoid infinite loop
     if (userName !== 'slackbot') {
       if (req.body.text.indexOf('jb')){
-
+        return res.status(200).json(botPayload.jb);
       }
       else if (hours >= 17 && hours < 23) {
         return res.status(200).json(botPayload.h17and23);
