@@ -26,7 +26,7 @@ module.exports = {
       },
       h16 : {
         text : 'Patience ' + userName + ', c\'est bientôt l\'heure de l\'apéro !'
-      }
+      },
       jb : {
         link_names:1,
         text : 'Oula j\'sais pas trop, t\'as vu la tête de @jb ?'
