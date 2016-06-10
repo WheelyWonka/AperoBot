@@ -38,16 +38,18 @@ module.exports = {
     if (userName !== 'slackbot') {
       if (req.body.text.indexOf('jb') > -1){
         return res.status(200).json(botPayload.jb);
-      } else if (hours >= 17 && hours < 23) {
-        return res.status(200).json(botPayload.h17and23);
-      } else if (hours >= 23 && hours < 6) {
-        return res.status(200).json(botPayload.h23and6);
-      } else if (hours >= 6 && hours < 10) {
-        return res.status(200).json(botPayload.h6and10);
-      } else if (hours >= 10 && hours < 16) {
-        return res.status(200).json(botPayload.h10and16);
-      } else if (hours === 16) {
-        return res.status(200).json(botPayload.h16);
+      } else {
+        if (hours >= 17 && hours < 23) {
+          return res.status(200).json(botPayload.h17and23);
+        } else if (hours >= 23 && hours < 6) {
+          return res.status(200).json(botPayload.h23and6);
+        } else if (hours >= 6 && hours < 10) {
+          return res.status(200).json(botPayload.h6and10);
+        } else if (hours >= 10 && hours < 16) {
+          return res.status(200).json(botPayload.h10and16);
+        } else if (hours === 16) {
+          return res.status(200).json(botPayload.h16);
+        }
       }
     } else {
       return res.status(200).end();
